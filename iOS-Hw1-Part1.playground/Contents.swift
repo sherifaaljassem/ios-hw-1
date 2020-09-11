@@ -5,7 +5,7 @@
  
  */
 
-let name = "Ahmad"
+var name = "Ahmad"
 
 name = "Salem"
 
@@ -15,11 +15,11 @@ var FriendWeight = 80.5
 var height = 1.5
 
 
-var weightSum = myWeight + FriendWeight
+var weightSum = Double(myWeight) + FriendWeight
 
 
 
-var bmi = myWeight * (height * height)
+var bmi = myWeight * Int(height * height)
 
 /*
 - - - -
@@ -29,7 +29,7 @@ var bmi = myWeight * (height * height)
  * الاسم الاخير
  * الايميل
  * رقم الهاتف
- * العمر
+ * العمرwawww
  * البلد
  * منطقة السكن
  * باسوورد
@@ -38,31 +38,38 @@ var bmi = myWeight * (height * height)
  */
 
 //Person 1
-var firstName1 = ""
-var lastName1 = ""
-var email1 = ""
-var phoneNumber1 = ""
-var age1 = 0
-var country1 = ""
-var area1 = ""
-var password = ""
-var isKuwaiti = false
+var firstName1 = "sara"
+var lastName1 = "alzamami"
+var email1 = "swairalzam@gmail.com"
+var phoneNumber1 = 12345678
+var age1 = 16
+var country1 = "kuwait"
+var area1 = "surra"
+var password = 2564
+var isKuwaiti = true
 
 //Person 2
-
-
-
-
-
-
-
-
+var firstName2 = "dana"
+var lastName2 = "almass"
+var email2 = "dee2@gmail.com"
+var phoneNumber2 = 22233541
+var age2 = 17
+var country2 = "kuwait"
+var area2 = "hiteen"
+var password2 = 7756
+var isKuwaiti2 = false
 
 
 //Person 3
-
-
-
+var firstName3 = "shaikha"
+var lastName3 = "alhaddad"
+var email3 = "shaikhahdd@gmail.com"
+var phoneNumber3 = 99931426
+var age3 = 18
+var country3 = "kuwait"
+var area3 = "alzahra"
+var password3 = 1256
+var isKuwaiti3 = true
 
 
 
@@ -82,3 +89,18 @@ var isKuwaiti = false
 
  
  */
+country1 == country2 || country2 == country3 || country1 == country3
+age1 == age2 || age2 == age3 || age1 == age3
+area1 == area2 || area2 == area3 || area1 == area3
+age1 > 18
+age2 > 18
+age3 > 18
+age1 < 18
+age2 < 18
+age3 < 18
+age1 == 17
+age2 == 17
+age3 == 17
+age1 != 17
+age2 != 17
+age3 != 17
