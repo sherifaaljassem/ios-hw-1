@@ -16,13 +16,24 @@ import UIKit
  1.5) استعمل if statement , اذا كانت المصفوفة تحتوي على بيتزا قم بطباعه "yumm Pizza🍕😋"
 
 */
-
-
-
-
+var favouriteFood = ["pasta", "chocolate", "coffee"]
+print (favouriteFood)
+favouriteFood.append("pizza")
+print (favouriteFood[0])
+for food in favouriteFood{
+    if food == "pizza" {
+    print("yumm Pizza")
+}
 
 //: # 2️⃣  السؤال الثاني
 var numbers = [1,2,3,4,5,6,7,8,9,10]
+    var evenNumbers : [Int] = []
+    for number in numbers{
+        if number % 2 == 0{
+            evenNumbers.append(number)
+        }
+}
+
 /*:
 
 ##
@@ -56,4 +67,11 @@ var numbers = [1,2,3,4,5,6,7,8,9,10]
 
  
  */
-   
+    var array = [1,2,3,4,5]
+    for x in 1...5{
+        for y in 1...10{
+            print(x*y)
+        }
+}
+    for i in 1...4{
+print("******")
